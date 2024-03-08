@@ -187,6 +187,7 @@ a:hover {
 
 .img_pj02 img{
 	width: 36%;
+	padding-right: 2%;
 }
 
 .img_pj00 img{
@@ -200,7 +201,6 @@ a:hover {
 
 .img_pj02 video {
 	width: 36%;
-	padding-left: 2%;
 }
 
 .description_pj02 {
