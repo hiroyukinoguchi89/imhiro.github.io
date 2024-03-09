@@ -50,7 +50,7 @@ a:hover {
 	max-width: 1800px;
 	margin: 0 auto;
 	padding-top: 160px;
-	padding-bottom: 120px;
+	padding-bottom: 60px;
 	-webkit-font-smoothing: antialiased;
 }
 .intro p {
@@ -59,8 +59,26 @@ a:hover {
 	letter-spacing: -0.5px;
 	padding-left: 13%;
 	padding-right: 280px;
+	-webkit-font-smoothing: antialiased;
 }
-
+.client_lists {
+	width: 100%;
+	max-width: 1800px;
+	margin: 0 auto;
+	padding-top: 0px;
+	padding-bottom: 80px;
+	padding-left: 13%;
+	-webkit-font-smoothing: antialiased;
+}
+.client_lists p {
+	font-size: 16px;
+	line-height: 44px;
+	letter-spacing: -0.5px;
+}
+.client_lists img {
+	padding-right: 40px;
+	vertical-align: middle;
+}
 
 
 /*pj01*/
