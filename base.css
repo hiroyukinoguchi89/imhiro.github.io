@@ -2,7 +2,7 @@
 /*GENERAL*/
 body,html{
 	margin: 0;
-	font-family: 'Aeonik-Regular';
+	font-family: 'Helvetica';
 	overflow-x: hidden
 }
 *{
@@ -23,10 +23,6 @@ a:hover {
 }
 
 /*FONT*/
-@font-face {
-	font-family: Aeonik-Regular;
-	src: url(font/Aeonik-Regular.ttf);
-}
 
 .container {
 	width: 100%;
