@@ -1,0 +1,200 @@
+
+/*GENERAL*/
+body,html{
+	margin: 0;
+	overflow-x: hidden;
+	font-family: "Inter", sans-serif;
+}
+*{
+	margin:0;
+	padding:0;
+}
+li{
+	list-style: none;
+	padding-bottom: 8px;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+a:hover {
+	color: gray;
+}
+
+/*FONT*/
+@font-face {
+	font-family: IBM;
+	src: url(font/IBMPlexMono-Regular.ttf);
+}
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.inter-<uniquifier> {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+
+
+
+.header {
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 160px;
+	padding-bottom: 200px;
+	margin: 0 auto;
+	background-color: white;
+	color: #020202;
+}
+
+.heading {
+	font-size: 152px;
+	font-weight: 700;
+	line-height: 136px;
+}
+
+.intro {
+	font-size: 40px;
+	font-weight: 500;
+	line-height: 48px;
+	padding-top: 88px;
+}
+
+.clients {
+	display: inline-block;
+}
+
+.clients img {
+	width: 64px;
+	padding-top: 100px;
+	padding-right: 28px;
+	vertical-align: middle;
+}
+
+
+.project1 {
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	margin: 0 auto;
+	background-color: #FCCF00;
+	color: black;
+}
+
+.company_container {
+ padding-bottom: 4px;
+}
+
+.project_logo img {
+	width: 60px;
+	display: inline-block;
+}
+
+.company {
+	font-family: "IBM";
+	font-size: 12px;
+	display: inline-block;
+}
+
+.name {
+	font-weight: 600;
+	display: inline-block;
+}
+
+.title {
+	font-size: 72px;
+	font-family: "Inter", sans-serif;
+	font-weight: 300;
+	width: 100%;
+	line-height: 84px;
+	letter-spacing: -1px;
+	padding-bottom: 40px;
+}
+
+.project_hero {
+	width: 100%;
+}
+
+.project_hero img{
+	width: 100%;
+}
+
+.description_container {
+	width: 100%;
+	display: flex;
+	font-family: "IBM";
+	font-size: 13px;
+	padding-top: 4%;
+}
+
+.content_left {
+	width: 50%;
+}
+
+.content_right {
+	width: 50%;
+	float: right;
+	line-height: 22px;
+}
+
+
+.project2 {
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	margin: 0 auto;
+	background-color: black;
+	color: white;
+}
+
+
+.project3 {
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	margin: 0 auto;
+	background-color: white;
+	color: black;
+}
+
+.project4 {
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	margin: 0 auto;
+	background-color: black;
+	color: #5F5F5F;
+}
+
+.project5 {
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	margin: 0 auto;
+	background-color: #BFBFBF;
+	color: #1D1D1D;
+}
+
+.footer {
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 120px;
+	padding-bottom: 120px;
+	margin: 0 auto;
+	background-color: white;
+	color: #020202;
+}
+
+.footer h{
+	font-weight: 300;
+}
