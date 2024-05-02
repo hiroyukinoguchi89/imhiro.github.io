@@ -22,11 +22,6 @@ a:hover {
 	color: gray;
 }
 
-/*FONT*/
-@font-face {
-	font-family: IBM;
-	src: url(font/IBMPlexMono-Regular.ttf);
-}
 
 // <uniquifier>: Use a unique and descriptive class name
 // <weight>: Use a value from 100 to 900
@@ -97,7 +92,9 @@ a:hover {
 }
 
 .company {
-	font-family: "IBM";
+	font-family: "IBM Plex Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
 	font-size: 12px;
 	display: inline-block;
 }
@@ -128,7 +125,9 @@ a:hover {
 .description_container {
 	width: 100%;
 	display: flex;
-	font-family: "IBM";
+	font-family: "IBM Plex Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
 	font-size: 13px;
 	padding-top: 4%;
 }
