@@ -37,6 +37,8 @@ a:hover {
 
 
 
+/*DESKTOP*/
+
 .header {
 	padding-left: 10%;
 	padding-right: 10%;
@@ -65,9 +67,9 @@ a:hover {
 }
 
 .clients img {
-	width: 64px;
+	width: 68px;
 	padding-top: 100px;
-	padding-right: 28px;
+	padding-right: 32px;
 	vertical-align: middle;
 }
 
@@ -134,6 +136,7 @@ a:hover {
 
 .content_left {
 	width: 50%;
+	letter-spacing: 1px;
 }
 
 .content_right {
@@ -196,4 +199,131 @@ a:hover {
 
 .footer h{
 	font-weight: 300;
+}
+
+
+
+/*MOBILE*/
+
+@media only screen and (max-width: 600px) {
+
+	.header {
+		padding-left: 10%;
+		padding-right: 10%;
+		padding-top: 80px;
+		padding-bottom: 100px;
+		margin: 0 auto;
+		background-color: white;
+		color: #020202;
+	}
+
+	.heading {
+		font-size: 40px;
+		font-weight: 700;
+		line-height: 44px;
+	}
+
+	.intro {
+		font-size: 24px;
+		font-weight: 500;
+		line-height: 32px;
+		padding-top: 40px;
+		padding-bottom: 20px;
+	}
+
+	.clients img {
+		width: 52px;
+		padding-top: 32px;
+		padding-right: 28px;
+		vertical-align: middle;
+	}
+
+	.project1 {
+		padding-left: 6%;
+		padding-right: 6%;
+		padding-top: 40px;
+		padding-bottom: 60px;
+		margin: 0 auto;
+	}
+	.project2 {
+		padding-left: 6%;
+		padding-right: 6%;
+		padding-top: 40px;
+		padding-bottom: 60px;
+		margin: 0 auto;
+	}
+	.project3 {
+		padding-left: 6%;
+		padding-right: 6%;
+		padding-top: 40px;
+		padding-bottom: 60px;
+		margin: 0 auto;
+	}
+	.project4 {
+		padding-left: 6%;
+		padding-right: 6%;
+		padding-top: 40px;
+		padding-bottom: 60px;
+		margin: 0 auto;
+	}
+
+	.project5 {
+		padding-left: 6%;
+		padding-right: 6%;
+		padding-top: 40px;
+		padding-bottom: 60px;
+		margin: 0 auto;
+	}
+
+	.company {
+		font-family: "IBM Plex Mono", monospace;
+	  font-weight: 400;
+	  font-style: normal;
+		font-size: 12px;
+		display: inline-block;
+		padding-bottom: 12px;
+	}
+
+	.title {
+		font-size: 32px;
+		font-family: "Inter", sans-serif;
+		font-weight: 300;
+		width: 100%;
+		line-height: 36px;
+		letter-spacing: -1px;
+		padding-bottom: 28px;
+	}
+
+	.description_container {
+		display: inline-block;
+		font-family: "IBM Plex Mono", monospace;
+	  font-weight: 400;
+	  font-style: normal;
+		font-size: 13px;
+		padding-top: 32px;
+	}
+
+	.content_left {
+		width: 100%;
+		line-height: 14px;
+		padding-bottom: 20px;
+	}
+
+	.content_right {
+		width: 100%;
+		line-height: 22px;
+	}
+
+	.footer {
+		padding-left: 6%;
+		padding-right: 6%;
+		padding-top: 80px;
+		padding-bottom: 80px;
+		background-color: white;
+		color: #020202;
+	}
+
+	.footer h{
+		font-weight: 300;
+	}
 }
