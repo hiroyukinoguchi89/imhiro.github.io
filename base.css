@@ -69,7 +69,7 @@ a:hover {
 	font-size: 12px;
 	font-weight: 400;
 	letter-spacing: 1px;
-	padding: 60px 28px 32px 0;
+	padding: 80px 28px 32px 0;
 }
 
 .clients img {
@@ -349,7 +349,7 @@ a:hover {
 		font-weight: 400;
 		line-height: 32px;
 		padding-top: 40px;
-		padding-bottom: 20px;
+		padding-bottom: 68px;
 	}
 
 	.clients img {
@@ -360,11 +360,7 @@ a:hover {
 	}
 
 	.clients_title {
-		font-family: "IBM Plex Mono", monospace;
-		font-size: 12px;
-		font-weight: 400;
-		letter-spacing: 1px;
-		padding: 60px 0 24px 0;
+		display: none;
 	}
 
 	.project1 {
