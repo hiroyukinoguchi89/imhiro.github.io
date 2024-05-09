@@ -15,7 +15,6 @@ li{
 }
 
 a {
-	color: black;
 	text-decoration: none;
 }
 a:hover {
@@ -406,6 +405,10 @@ a:hover {
 		padding-top: 52px;
 		padding-bottom: 68px;
 		margin: 0 auto;
+	}
+
+	.project2 a {
+		color: white;
 	}
 
 	.company {
