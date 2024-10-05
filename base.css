@@ -42,7 +42,7 @@ a:hover {
 	padding-left: 10%;
 	padding-right: 10%;
 	padding-top: 140px;
-	padding-bottom: 160px;
+	padding-bottom: 100px;
 	margin: 0 auto;
 	background-color: white;
 	color: #020202;
@@ -61,28 +61,28 @@ a:hover {
 	line-height: 52px;
 	letter-spacing: -1px;
 	padding-top: 48px;
-	padding-bottom: 140px;
 }
 
-.clients_title {
-	font-family: "IBM Plex Mono", monospace;
-	font-size: 12px;
-	font-weight: 400;
-	letter-spacing: 1px;
-	padding: 80px 28px 32px 0;
+.slider img {
+	width: 120px;
+  animation: scroll 60s linear infinite;
 }
 
-.clients img {
-	width: 72px;
-	padding-right: 56px;
-	vertical-align: middle;
-	padding-bottom: 28px;
+.slide-track {
+  width: 100%;
+  display: flex;
+  gap: 2.5em;
+  overflow: hidden;
 }
 
-.clients {
-	display: inline-block;
+.slider {
+  padding: 20px 10% 120px 10%;
 }
 
+@keyframes scroll {
+  0% {transform: translateX(0);}
+  100% {transform: translatex(-1000%)}
+}
 
 .project1 {
 	padding-left: 10%;
@@ -230,25 +230,46 @@ a:hover {
 		padding-left: 5%;
 		padding-right: 5%;
 		padding-top: 140px;
-		padding-bottom: 180px;
+		padding-bottom: 80px;
 		margin: 0 auto;
 		background-color: white;
 		color: #020202;
 	}
 
 	.heading {
-		font-size: 144px;
+		font-size: 80px;
 		font-weight: 700;
-		line-height: 126px;
+		line-height: 86px;
 		letter-spacing: -5px;
 	}
 
 	.intro {
-		font-size: 40px;
+		font-size: 36px;
 		font-weight: 400;
 		line-height: 52px;
 		letter-spacing: -1px;
-		padding-top: 88px;
+		padding-top: 48px;
+	}
+
+	.slider img {
+		width: 120px;
+	  animation: scroll 60s linear infinite;
+	}
+
+	.slide-track {
+	  width: 100%;
+	  display: flex;
+	  gap: 2.5em;
+	  overflow: hidden;
+	}
+
+	.slider {
+	  padding: 20px 5% 120px 5%;
+	}
+
+	@keyframes scroll {
+	  0% {transform: translateX(0);}
+	  100% {transform: translatex(-1000%)}
 	}
 
 	.project1 {
@@ -339,9 +360,9 @@ a:hover {
 	}
 
 	.heading {
-		font-size: 80px;
+		font-size: 64px;
 		font-weight: 700;
-		line-height: 72px;
+		line-height: 64px;
 	}
 
 	.intro {
@@ -349,18 +370,27 @@ a:hover {
 		font-weight: 400;
 		line-height: 32px;
 		padding-top: 40px;
-		padding-bottom: 68px;
 	}
 
-	.clients img {
-		width: 52px;
-		padding-top: 0px;
-		padding-right: 28px;
-		vertical-align: middle;
+	.slider img {
+		width: 88px;
+	  animation: scroll 18s linear infinite;
 	}
 
-	.clients_title {
-		display: none;
+	.slide-track {
+	  width: 100%;
+	  display: flex;
+	  gap: 1.5em;
+	  overflow: hidden;
+	}
+
+	.slider {
+	  padding: 0px 6% 120px 6%;
+	}
+
+	@keyframes scroll {
+	  0% {transform: translateX(0);}
+	  100% {transform: translatex(-1000%)}
 	}
 
 	.project1 {
