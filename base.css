@@ -56,11 +56,11 @@ a:hover {
 }
 
 .intro {
-	font-size: 36px;
+	font-size: 32px;
 	font-weight: 400;
-	line-height: 52px;
+	line-height: 46px;
 	letter-spacing: -1px;
-	padding-top: 48px;
+	padding-top: 40px;
 }
 
 .slider img {
@@ -71,7 +71,7 @@ a:hover {
 .slide-track {
   width: 100%;
   display: flex;
-  gap: 2.5em;
+  gap: 2em;
   overflow: hidden;
 }
 
@@ -244,11 +244,11 @@ a:hover {
 	}
 
 	.intro {
-		font-size: 36px;
+		font-size: 32px;
 		font-weight: 400;
-		line-height: 52px;
+		line-height: 46px;
 		letter-spacing: -1px;
-		padding-top: 48px;
+		padding-top: 40px;
 	}
 
 	.slider img {
@@ -259,7 +259,7 @@ a:hover {
 	.slide-track {
 	  width: 100%;
 	  display: flex;
-	  gap: 2.5em;
+	  gap: 2em;
 	  overflow: hidden;
 	}
 
