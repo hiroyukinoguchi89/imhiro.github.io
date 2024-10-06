@@ -352,8 +352,8 @@ a:hover {
 	.header {
 		padding-left: 6%;
 		padding-right: 6%;
-		padding-top: 80px;
-		padding-bottom: 100px;
+		padding-top: 60px;
+		padding-bottom: 60px;
 		margin: 0 auto;
 		background-color: white;
 		color: #020202;
@@ -380,12 +380,12 @@ a:hover {
 	.slide-track {
 	  width: 100%;
 	  display: flex;
-	  gap: 1.5em;
+	  gap: 1em;
 	  overflow: hidden;
 	}
 
 	.slider {
-	  padding: 0px 6% 120px 6%;
+	  padding: 0px 6% 80px 6%;
 	}
 
 	@keyframes scroll {
