@@ -117,11 +117,11 @@ a:hover {
 }
 
 .title {
-	font-size: 72px;
+	font-size: 44px;
 	font-family: "Inter", sans-serif;
 	font-weight: 200;
 	width: 100%;
-	line-height: 84px;
+	line-height: 50px;
 	letter-spacing: -2px;
 	padding-bottom: 40px;
 }
