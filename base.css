@@ -175,7 +175,7 @@ a:hover {
 	padding-top: 80px;
 	padding-bottom: 80px;
 	margin: 0 auto;
-	background-color: #000000;
+	background-color: #1E1E1E;
 	color: #fff;
 }
 
@@ -205,7 +205,17 @@ a:hover {
 	padding-top: 80px;
 	padding-bottom: 80px;
 	margin: 0 auto;
-	background-color: #000000;
+	background-color: #131313;
+	color: #797979;
+}
+
+.project7 {
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	margin: 0 auto;
+	background-color: #FF1300;
 	color: #fff;
 }
 
@@ -322,6 +332,14 @@ a:hover {
 		margin: 0 auto;
 	}
 
+	.project7 {
+		padding-left: 5%;
+		padding-right: 5%;
+		padding-top: 80px;
+		padding-bottom: 80px;
+		margin: 0 auto;
+	}
+
 	.footer {
 		padding-left: 5%;
 		padding-right: 5%;
@@ -421,6 +439,14 @@ a:hover {
 	}
 
 	.project6 {
+		padding-left: 6%;
+		padding-right: 6%;
+		padding-top: 52px;
+		padding-bottom: 68px;
+		margin: 0 auto;
+	}
+
+	.project7 {
 		padding-left: 6%;
 		padding-right: 6%;
 		padding-top: 52px;
